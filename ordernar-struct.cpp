@@ -3,22 +3,24 @@ using namespace std;
 
 struct Personas{
 	int edad; // entre 0 a 100;
-	char nombre;
+	char nombre[20];
 };
 
 
 int main(){
-	Personas persona1, persona2, persona3;
+	Personas gente[10];
+	util_gente=0;
 
-	//Leer la edad de las tres personas 
-	leerDatos(persona1);//Alex
-	leerDatos(persona2);
-	leerDatos(persona3);
+	//Leer cuantas personas se van a introducir 
+	
 
-	mostrarDatos(persona1);//Dani
-	mostrarDatos(persona2);
-	mostrarDatos(persona3);
+	//Leer los datos de las personas.
 
-	ordenar(persona1,persona2,persona3);//Carlos
+
+	//Mostrar los datos desordenados.
+
+	// Ordenar los datos.
+
+	//Mostrar los datos ordenados
 
 }
